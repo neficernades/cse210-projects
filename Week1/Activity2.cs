@@ -26,7 +26,7 @@ class Activity2
         {
             letter = 'F';
         }
-        int lastDigit = (int)porcentaje % 10;
+        int lastDigit = (int)percentage % 10;
         char sign = ' ';
 
         if (lastDigit >= 7)
@@ -46,15 +46,15 @@ class Activity2
         {
             sign = ' ';
         }
-        Console.WriteLine($"Your percentage in letters is : {letter}{sign}")
+        Console.WriteLine($"Your percentage in letters is : {letter}{sign}");
         if (percentage >= 70)
         {
-            Console.WriteLine("Congratulations, you have passed!")
+            Console.WriteLine("Congratulations, you have passed!");
 
         }
         else
         {
-            Console.WriteLine("Try harder next time, I know you can!")
+            Console.WriteLine("Try harder next time, I know you can!");
         }
     }
 }
